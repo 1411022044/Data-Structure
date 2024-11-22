@@ -31,5 +31,3 @@ function bracketMatching(str){
 
 var test="a = (1 + v(b[3 + c[4]]))"
 console.log(bracketMatching(test));
-
- s
