@@ -52,7 +52,6 @@ function go() {
       if (!moved) {
         Stack.pop();  // 将当前位置出栈
         step = Stack[Stack.length - 1];  // 回退到上一个位置
-        continue;
       }
     }
 
